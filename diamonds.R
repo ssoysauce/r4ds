@@ -5,3 +5,4 @@ ggplot(diamonds, aes(x = carat, y = price)) +
 ggsave("diamonds.png")
 
 write_csv(diamonds, "data/diamonds.csv")
+#this is a comment
